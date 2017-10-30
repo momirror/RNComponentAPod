@@ -13,7 +13,7 @@
 RCT_EXPORT_MODULE();
 
 RCT_EXPORT_METHOD(getDeviceInfo:(RCTResponseSenderBlock)callback) {
-  RCTLogInfo(@"get deivce info");
+  callback(@[[NSNull null],@"这是一台iOS设备"]);
 }
 
 @end
